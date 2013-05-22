@@ -36,12 +36,6 @@
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
     </Reference>
-    <Reference Include="EntityFramework.PowerShell">
-      <HintPath>..\packages\EntityFramework.5.0.0\tools\EntityFramework.PowerShell.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.PowerShell.Utility">
-      <HintPath>..\packages\EntityFramework.5.0.0\tools\EntityFramework.PowerShell.Utility.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
