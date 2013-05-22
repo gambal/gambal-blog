@@ -73,9 +73,9 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <Resource Include="Fixtures\posts.yml">
+    <Content Include="Fixtures\posts.yml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="blog-test.mdf">
