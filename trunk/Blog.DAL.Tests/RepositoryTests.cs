@@ -17,7 +17,7 @@ namespace Blog.DAL.Tests
     public class RepositoryTests : DbBaseTest<BlogFixtures>
     {
 
-        [DeploymentItem("Blog.DAL.Tests\\\\Fixtures\\\\posts.yml"), TestMethod]
+        [TestMethod]
         //[DeploymentItem("Blog.DAL.Tests\\Fixtures\\posts.yml", "Fixtures")]
         public void GetAllPost_OnePostInDb_ReturnOnePost()
         {
