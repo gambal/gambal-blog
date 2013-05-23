@@ -18,7 +18,6 @@ namespace Blog.DAL.Tests
     {
 
         [TestMethod]
-        [DeploymentItem("Blog.DAL.Tests\\Fixtures\\posts.yml", "Fixtures")]
         public void GetAllPost_OnePostInDb_ReturnOnePost()
         {
             // arrange
@@ -32,7 +31,6 @@ namespace Blog.DAL.Tests
         }
 
         [TestMethod]
-        [DeploymentItem("Blog.DAL.Tests\\Fixtures\\posts.yml", "Fixtures")]
         [ExpectedException(typeof(NullReferenceException))]
         public void AddNewPost_ShouldReturnNullException()
         {
@@ -48,7 +46,6 @@ namespace Blog.DAL.Tests
         }
 
         [TestMethod]
-        [DeploymentItem("Blog.DAL.Tests\\Fixtures\\posts.yml", "Fixtures")]
         public void AddNewPost_ShouldAddNewPost()
         {
             //arrange
@@ -66,7 +63,6 @@ namespace Blog.DAL.Tests
         }
 
         [TestMethod]
-        [DeploymentItem("Blog.DAL.Tests\\Fixtures\\posts.yml", "Fixtures")]
         public void GetAllPostComments_ShouldReturnOneComment()
         {
             var repo = new BlogRepository();
@@ -76,7 +72,6 @@ namespace Blog.DAL.Tests
         }
 
         [TestMethod]
-        [DeploymentItem("Blog.DAL.Tests\\Fixtures\\posts.yml", "Fixtures")]
         [ExpectedException(typeof(NullReferenceException))]
         public void AddCommentToPost_ShouldReturnException()
         {
@@ -85,7 +80,6 @@ namespace Blog.DAL.Tests
         }
 
         [TestMethod]
-        [DeploymentItem("Blog.DAL.Tests\\Fixtures\\posts.yml", "Fixtures")]
         public void AddCommentToPost_ShouldAddNewComment()
         {
             var context = new BlogContext();
